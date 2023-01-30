@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,600;0,700;0,900;1,100;1,200;1,300;1,600;1,700;1,800&display=swap');
 
-:root{
+:root {
   --backColor: #00A9EF;
   --textColor: #edf2f4;
   --beforeColor: #7CFAC3;
   --buttonColor: #00316A;
   --copyrightColor: #9DADBC;
 }
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -64,13 +65,14 @@ section {
   flex: 1;
   row-gap: 15px;
 }
+
 .title {
   font-size: 1.2em;
   font-weight: 600;
   text-transform: capitalize;
   position: relative;
   padding: 7px 0;
-  color: var(--textColor );
+  color: var(--textColor);
 }
 
 .title::before {
@@ -92,16 +94,16 @@ li a {
   font-size: 13px;
 }
 
-li a:hover{
+li a:hover {
   text-decoration: underline;
 }
 
-.follow-us a svg{
+.follow-us a svg {
   font-size: 20px;
   margin-right: 10px;
 }
 
-.follow-us li:not(:first-child){
+.follow-us li:not(:first-child) {
   line-height: 2.5em;
 }
 
@@ -133,7 +135,7 @@ li a:hover{
   display: grid;
   place-content: center;
   cursor: pointer;
-  
+
 }
 
 .subscribe-form button svg {
@@ -165,7 +167,7 @@ li a:hover{
 
 /* shape */
 
-.copyright{
+.copyright {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -177,25 +179,29 @@ li a:hover{
   color: var(--textColor);
   text-transform: capitalize;
 }
+
 @media screen and (max-width:638px) {
   section {
     padding-left: 100px;
   }
-   
+
 }
+
 @media screen and (max-width:520px) {
   section {
     padding: 0;
     width: 100%;
     text-align: center;
   }
-  .title::before{
+
+  .title::before {
     left: 50%;
     transform: translateX(-50%);
   }
 
-  .logo ,.subscribe-form {
+  .logo,
+  .subscribe-form {
     align-self: center;
   }
-  
+
 }

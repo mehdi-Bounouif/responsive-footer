@@ -1,2 +1,1 @@
-# responsive-footer
-responsive footer
+![responsive-footer](images/responsive-footer.jpg)
